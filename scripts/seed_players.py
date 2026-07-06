@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Seed data/players-2026.json from FIFA squads + Wikipedia clubs.
+Seed data/players-2028.json from FIFA squads + Wikipedia clubs.
 
-FIFA's API gives us every WC2026 player's IdPlayer, name, and nationality, but
-no club. Wikipedia's "2026 FIFA World Cup squads" article has each player's
+FIFA's API gives us every WC2028 player's IdPlayer, name, and nationality, but
+no club. Wikipedia's "2028 FIFA World Cup squads" article has each player's
 current club with its country code. This script joins the two by team +
 fuzzy-matched name and writes the index the ledger builder reads.
 
@@ -11,7 +11,7 @@ Run on the seed pass and after each transfer window:
 
     python3 scripts/seed_players.py
 
-Output: data/players-2026.json keyed by FIFA IdPlayer.
+Output: data/players-2028.json keyed by FIFA IdPlayer.
 """
 
 import json
@@ -25,13 +25,13 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
-OUT = DATA_DIR / "players-2026.json"
+OUT = DATA_DIR / "players-2028.json"
 UA = "Mozilla/5.0 (compatible; WCClubTrackerBot/1.0; +https://wcclubtracker.com)"
 
 FIFA = "https://api.fifa.com/api/v3"
 COMP = "17"
 SEASON = "285023"
-WIKI_URL = "https://en.wikipedia.org/w/index.php?title=2026_FIFA_World_Cup_squads&action=raw"
+WIKI_URL = "https://en.wikipedia.org/w/index.php?title=2028_FIFA_World_Cup_squads&action=raw"
 
 
 def http_json(url):
@@ -54,7 +54,7 @@ def norm(s):
 
 
 def fifa_team_ids():
-    """Return all 48 WC2026 team IDs from the matches list."""
+    """Return all 48 WC2028 team IDs from the matches list."""
     matches = http_json(f"{FIFA}/calendar/matches?idCompetition={COMP}&idSeason={SEASON}&language=en&count=500")
     ids = {}
     for m in matches["Results"]:
@@ -147,7 +147,7 @@ def parse_wiki_squads(wikitext):
     return out
 
 
-# Complete FIFA 3-letter IdCountry -> Wikipedia section name for the 48 WC2026 teams.
+# Complete FIFA 3-letter IdCountry -> Wikipedia section name for the 48 WC2028 teams.
 COUNTRY_TO_SECTION = {
     "ALG": "Algeria", "ARG": "Argentina", "AUS": "Australia", "AUT": "Austria",
     "BEL": "Belgium", "BIH": "Bosnia and Herzegovina", "BRA": "Brazil",

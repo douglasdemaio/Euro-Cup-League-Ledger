@@ -3,7 +3,7 @@
 Tiny Cloudflare Worker that backs the "Your call" panel on
 [wcclubtracker.com](https://wcclubtracker.com). It stores per-stat top-league
 predictions in KV and rejects writes after the R16 deadline
-(**7 July 2026 00:00 UTC**).
+(**8 June 2028 00:00 UTC**).
 
 ## Routes
 

@@ -1,5 +1,5 @@
 {
-  "_comment": "Club-league mapping. `defaults` maps a club's country (FIFA 3-letter code, as in players-2026.json#clubnat) to the league string used in 2026.json. `overrides` maps a specific club name to a league string, taking precedence over the country default — use for second-tier clubs and unusual cases. Club names must match data/players-2026.json#club exactly.",
+  "_comment": "Club-league mapping. `defaults` maps a club's country (FIFA 3-letter code, as in players-2028.json#clubnat) to the league string used in 2028.json. `overrides` maps a specific club name to a league string, taking precedence over the country default — use for second-tier clubs and unusual cases. Club names must match data/players-2028.json#club exactly.",
   "defaults": {
     "ALG": "Algerian Ligue Professionnelle 1",
     "ARG": "Primera División (Argentina)",

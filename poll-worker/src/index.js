@@ -8,7 +8,7 @@
 //   client:<clientId>           → JSON {goals, assists, saves, at}  (used to apply replacement votes)
 //   rate:<ip>                   → presence-only; short TTL for a soft per-IP rate limit
 
-const POLL_DEADLINE = Date.UTC(2026, 6, 7, 0, 0, 0); // 7 July 2026 00:00 UTC — end of R16
+const POLL_DEADLINE = Date.UTC(2028, 5, 8, 0, 0, 0); // 8 June 2028 00:00 UTC — end of R16
 const STATS = ["goals", "assists", "saves"];
 const ALLOWED_LEAGUES = new Set([
   "Premier League (England)",

@@ -77,14 +77,14 @@
       "keywords": ["UEFA European Championship","goals","assists","saves","Premier League","La Liga","Bundesliga","Serie A","Ligue 1","Eredivisie"],
       "license": "https://opensource.org/licenses/MIT",
       "creator": { "@id": "https://wcclubtracker.com/#publisher" },
-      "temporalCoverage": "2010-06-11/2026-07-19",
+      "temporalCoverage": "2010-06-11/2028-07-19",
       "url": "https://wcclubtracker.com/"
     },
     {
       "@type": "SportsEvent",
       "name": "UEFA European Championship",
-      "startDate": "2026-06-11",
-      "endDate": "2026-07-19",
+      "startDate": "2028-06-11",
+      "endDate": "2028-07-19",
       "location": [
         {"@type":"Country","name":"United States"},
         {"@type":"Country","name":"Mexico"},
@@ -353,7 +353,7 @@ footer.foot a{color:var(--gold);text-decoration:none}
   <main class="board" aria-label="European Championship league ledger">
     <div class="board-top">
       <div class="switch" role="tablist" aria-label="Tournament">
-        <button id="t2026" class="on" data-t="2026" aria-pressed="true"><span class="live-dot" aria-hidden="true"></span>2026 · Live</button>
+        <button id="t2028" class="on" data-t="2028" aria-pressed="true"><span class="live-dot" aria-hidden="true"></span>2028 · Live</button>
         <button id="t2022" data-t="2022">2022</button>
         <button id="t2018" data-t="2018">2018</button>
         <button id="t2014" data-t="2014">2014</button>
@@ -389,11 +389,11 @@ footer.foot a{color:var(--gold);text-decoration:none}
 <script>
 /* ----------------------------------------------------------------
  * DATA
- * 2022 + 2026: full per-player ledgers (compiled from match reports).
+ * 2022 + 2028: full per-player ledgers (compiled from match reports).
  * 2018 / 2014 / 2010: top contributors per league (see Method note).
  * ---------------------------------------------------------------- */
 const WC = {
-  "2026": {
+  "2028": {
     "updated": "Final · Germany, 14 Jun – 14 Jul 2024",
     "goals": [
       {"league":"Bundesliga (Germany)","total":26,"players":[
@@ -1331,9 +1331,9 @@ const WC = {
 };
 
 const NOTES = {
-  "2026-goals":"142 total goals across 51 matches. Serie A led all leagues with 37 — its widest margin in any major tournament. Five different leagues produced 10+ goals: Serie A (37), Premier League (35), Bundesliga (19), La Liga (13), Ligue 1 (13).",
-  "2026-assists":"Assist data compiled from UEFA and worldfootball.net sources (assist definitions vary slightly between providers).",
-  "2026-saves":"Goalkeeper totals reflect regulation saves only across all 51 matches. Donnarumma (PSG/Italy) won the Player of the Tournament.",
+  "2028-goals":"142 total goals across 51 matches. Serie A led all leagues with 37 — its widest margin in any major tournament. Five different leagues produced 10+ goals: Serie A (37), Premier League (35), Bundesliga (19), La Liga (13), Ligue 1 (13).",
+  "2028-assists":"Assist data compiled from UEFA and worldfootball.net sources (assist definitions vary slightly between providers).",
+  "2028-saves":"Goalkeeper totals reflect regulation saves only across all 51 matches. Donnarumma (PSG/Italy) won the Player of the Tournament.",
   "2022-goals":"142 total goals across 51 matches — the highest-scoring European Championship since 1976. Serie A led with 37 goals, powered by Italy's deep run and Belgium's group-stage firepower.",
   "2022-assists":"Assist data compiled from UEFA official match reports. 105 primary assists credited across the tournament.",
   "2022-saves":"349 regulation saves across 40 goalkeepers. Gianluigi Donnarumma's shootout heroics won Italy the trophy.",
@@ -1348,7 +1348,7 @@ const NOTES = {
   "2010-saves":"Iker Casillas captained Spain to the title with commanding performances. Igor Akinfeev (CSKA Moscow/Russia) made a tournament-high 35 saves."
 };
 
-let tournament="2026", stat="goals";
+let tournament="2028", stat="goals";
 
 function setTournament(t){
   tournament=t;
@@ -1567,7 +1567,7 @@ function tickPollClock(){
 }
 
 function liveLeader(stat){
-  const d = WC["2026"]; if(!d) return null;
+  const d = WC["2028"]; if(!d) return null;
   const rows = cleanRows(d[stat]||[]).sort((a,b)=>b.total-a.total);
   return rows.length ? rows[0] : null;
 }
@@ -1610,7 +1610,7 @@ function closePoll(){
   if(btn){ btn.disabled = true; btn.textContent = "Voting closed"; }
   const saved = loadPrediction();
   setPollStatus(saved
-    ? "Voting closed at end of R16 — your locked picks shown below against the live 2026 leaders."
+    ? "Voting closed at end of R16 — your locked picks shown below against the live 2028 leaders."
     : "Voting closed at end of R16. No picks were locked in this browser.","closed");
   renderPollResults();
 }
@@ -1702,14 +1702,14 @@ if(POLL_API_ENDPOINT){
 }
 
 /* ----------------------------------------------------------------
- * LIVE UPDATER — 2026
- * The 2026 ledger lives in data/2026.json so it can be updated by a
+ * LIVE UPDATER — 2028
+ * The 2028 ledger lives in data/2028.json so it can be updated by a
  * commit (or a scheduled GitHub Action) without touching this file.
  * We fetch it on load and every 60s with cache-busting; if the
- * payload changed, we hot-swap WC["2026"] and re-render. The inline
+ * payload changed, we hot-swap WC["2028"] and re-render. The inline
  * data above is the fallback (offline, file://, fetch blocked).
  * ---------------------------------------------------------------- */
-const LIVE_URL = "data/2026.json";
+const LIVE_URL = "data/2028.json";
 const LIVE_POLL_MS = 60000;
 let liveEtag = "";
 
@@ -1727,8 +1727,8 @@ async function refreshLive(){
     const d = JSON.parse(text);
     if(!validLedger(d)) return;             // malformed payload — keep current data
     liveEtag = text;
-    WC["2026"] = d;
-    if(tournament === "2026") render();
+    WC["2028"] = d;
+    if(tournament === "2028") render();
     renderPollResults();
   }catch(e){
     /* offline or fetch blocked — inline fallback data stays on screen */

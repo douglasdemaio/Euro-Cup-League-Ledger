@@ -8,7 +8,7 @@ For every played match, walks the event timeline and aggregates per player:
   - Type  1 = Assist -> assists
   - Type 57 = Goal Prevention (save) -> saves
 
-Joins each player to a club + league via data/players-2026.json and
+Joins each player to a club + league via data/players-2028.json and
 data/leagues.json, then groups into the {league, total, players[]} shape
 the front-end already renders.
 
@@ -30,9 +30,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
-PLAYERS_FILE = DATA_DIR / "players-2026.json"
+PLAYERS_FILE = DATA_DIR / "players-2028.json"
 LEAGUES_FILE = DATA_DIR / "leagues.json"
-OUT_FILE = DATA_DIR / "2026.json"
+OUT_FILE = DATA_DIR / "2028.json"
 
 UA = "Mozilla/5.0 (compatible; EuroLedgerBot/1.0; +https://wcclubtracker.com)"
 FIFA = "https://api.fifa.com/api/v3"
@@ -40,7 +40,7 @@ COMP = "17"
 SEASON = "285023"
 
 # FIFA's v3 timeline never emits save events for the World Cup (verified empty
-# on 2026 *and* 2022 — Type 57/60/14 are simply not in the feed), and FIFA's
+# on 2028 *and* 2022 — Type 57/60/14 are simply not in the feed), and FIFA's
 # /topsavers endpoint exists but stays empty until they decide to publish
 # keeper stats post-tournament. Until then we pull saves from ESPN's public
 # match-summary endpoint, which carries per-match keeper save totals as the
@@ -381,7 +381,7 @@ def write_if_changed(payload):
         old = OUT_FILE.read_text(encoding="utf-8")
         # Compare ignoring the timestamp line so a no-op poll doesn't churn the file.
         if scrub_updated(old) == scrub_updated(new_text):
-            print("No data change — leaving 2026.json untouched.", file=sys.stderr)
+            print("No data change — leaving 2028.json untouched.", file=sys.stderr)
             return False
     OUT_FILE.write_text(new_text, encoding="utf-8")
     print(f"Wrote {OUT_FILE}", file=sys.stderr)
