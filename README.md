@@ -1,6 +1,6 @@
 # UEFA European Championship League Ledger
 
-**Live site:** <https://wcclubtracker.com/>
+**Site will be live at:** <https://ecclubtracker.com/>
 
 Every UEFA European Championship goal, assist and save, credited back to the **club league** the player earns his living in. Live tracking for **EURO 2024/2028-style updates**, plus settled ledgers for **2020, 2016, 2012 and 2008** — the last five tournaments.
 
