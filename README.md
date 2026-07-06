@@ -15,7 +15,6 @@ Sort by Premier League, La Liga, Bundesliga, Serie A, Ligue 1, Primeira Liga, Er
 - `scripts/build_ledger.py` — hourly aggregator. Reads the match timeline feed (goals = event type 0, assists = 1, saves = 57), joins on the player index, buckets into leagues, writes the ledger payload. No secrets — public sources only.
 - `scripts/seed_players.py` — rebuilds the player index. Run once and after each transfer window.
 - `.github/workflows/update-2028.yml` — runs `build_ledger.py` every hour and commits the ledger payload back to `main` only when it changes.
-- `euro2024_data.json`, `euro2020_by_league.json`, `euro2016_by_league.json`, `euro2012_data.json`, `euro2008_data.json` — settled per-league tallies for each historical tournament, embedded into the page bundle.
 - `euro-cup-league-tracker.html` — original prototype, kept for history.
 - `poll-worker/` — optional Cloudflare Worker that aggregates the R16 predictions poll. Deploy with `cd poll-worker && npx wrangler deploy`, then paste the worker URL into `POLL_API_ENDPOINT` in `index.html`. Without it, the poll runs in local-only mode (each visitor sees only their own picks).
 - `robots.txt`, `sitemap.xml` — SEO basics
