@@ -1,5 +1,5 @@
 {
-  "updated": "July 7, 2026 08:21 UTC — 94 of 104 matches played",
+  "updated": "July 7, 2026 17:12 UTC — 94 of 104 matches played, 1 live",
   "goals": [
     {
       "league": "Premier League (England)",
@@ -729,7 +729,7 @@
     },
     {
       "league": "Egyptian Premier League",
-      "total": 6,
+      "total": 7,
       "players": [
         {
           "name": "Emam Ashour",
@@ -757,6 +757,12 @@
         },
         {
           "name": "Trezeguet",
+          "nat": "Egypt",
+          "n": 1,
+          "club": "Al Ahly"
+        },
+        {
+          "name": "Yasser Ibrahim",
           "nat": "Egypt",
           "n": 1,
           "club": "Al Ahly"
@@ -1870,6 +1876,42 @@
       ]
     },
     {
+      "league": "Egyptian Premier League",
+      "total": 5,
+      "players": [
+        {
+          "name": "Karim Hafez",
+          "nat": "Egypt",
+          "n": 1,
+          "club": "Pyramids"
+        },
+        {
+          "name": "Marawan Attia",
+          "nat": "Egypt",
+          "n": 1,
+          "club": "Al Ahly"
+        },
+        {
+          "name": "Mohamed Hany",
+          "nat": "Egypt",
+          "n": 1,
+          "club": "Al Ahly"
+        },
+        {
+          "name": "Mostafa Zico",
+          "nat": "Egypt",
+          "n": 1,
+          "club": "Pyramids"
+        },
+        {
+          "name": "Trezeguet",
+          "nat": "Egypt",
+          "n": 1,
+          "club": "Al Ahly"
+        }
+      ]
+    },
+    {
       "league": "Eredivisie (Netherlands)",
       "total": 5,
       "players": [
@@ -1968,36 +2010,6 @@
           "nat": "Ivory Coast",
           "n": 1,
           "club": "Galatasaray"
-        }
-      ]
-    },
-    {
-      "league": "Egyptian Premier League",
-      "total": 4,
-      "players": [
-        {
-          "name": "Karim Hafez",
-          "nat": "Egypt",
-          "n": 1,
-          "club": "Pyramids"
-        },
-        {
-          "name": "Mohamed Hany",
-          "nat": "Egypt",
-          "n": 1,
-          "club": "Al Ahly"
-        },
-        {
-          "name": "Mostafa Zico",
-          "nat": "Egypt",
-          "n": 1,
-          "club": "Pyramids"
-        },
-        {
-          "name": "Trezeguet",
-          "nat": "Egypt",
-          "n": 1,
-          "club": "Al Ahly"
         }
       ]
     },
@@ -2544,6 +2556,18 @@
       ]
     },
     {
+      "league": "Egyptian Premier League",
+      "total": 13,
+      "players": [
+        {
+          "name": "Mostafa Shoubir",
+          "nat": "Egypt",
+          "n": 13,
+          "club": "Al Ahly"
+        }
+      ]
+    },
+    {
       "league": "Liga MX (Mexico)",
       "total": 12,
       "players": [
@@ -2582,18 +2606,6 @@
           "nat": "South Africa",
           "n": 11,
           "club": "Mamelodi Sundowns"
-        }
-      ]
-    },
-    {
-      "league": "Egyptian Premier League",
-      "total": 10,
-      "players": [
-        {
-          "name": "Mostafa Shoubir",
-          "nat": "Egypt",
-          "n": 10,
-          "club": "Al Ahly"
         }
       ]
     },
