@@ -1,5 +1,5 @@
 {
-  "updated": "July 7, 2026 19:51 UTC — 95 of 104 matches played",
+  "updated": "July 7, 2026 21:22 UTC — 95 of 104 matches played, 1 live",
   "goals": [
     {
       "league": "Premier League (England)",
@@ -2497,12 +2497,12 @@
     },
     {
       "league": "Bundesliga (Germany)",
-      "total": 24,
+      "total": 26,
       "players": [
         {
           "name": "Gregor Kobel",
           "nat": "Switzerland",
-          "n": 13,
+          "n": 15,
           "club": "Borussia Dortmund"
         },
         {
@@ -2592,20 +2592,8 @@
       ]
     },
     {
-      "league": "Austrian Bundesliga",
-      "total": 13,
-      "players": [
-        {
-          "name": "Alexander Schlager",
-          "nat": "Austria",
-          "n": 13,
-          "club": "Red Bull Salzburg"
-        }
-      ]
-    },
-    {
       "league": "Liga MX (Mexico)",
-      "total": 12,
+      "total": 14,
       "players": [
         {
           "name": "Raul Rangel",
@@ -2616,8 +2604,20 @@
         {
           "name": "Camilo Vargas",
           "nat": "Colombia",
-          "n": 4,
+          "n": 6,
           "club": "Atlas"
+        }
+      ]
+    },
+    {
+      "league": "Austrian Bundesliga",
+      "total": 13,
+      "players": [
+        {
+          "name": "Alexander Schlager",
+          "nat": "Austria",
+          "n": 13,
+          "club": "Red Bull Salzburg"
         }
       ]
     },
