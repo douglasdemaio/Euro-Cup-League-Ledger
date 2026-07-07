@@ -10,6 +10,7 @@ Sort by Premier League, La Liga, Bundesliga, Serie A, Ligue 1, Primeira Liga, Er
 
 - `index.html` — the single-page app (vanilla JS, no build step)
 - `data/2028.json` — the live Euro 2028 ledger payload. The page polls this file every 60s. Schema: `{updated, goals[], assists[], saves[], notes{}}`, each stat an array of `{league, total, players:[{name, nat, n, club}]}`.
+- `data/2024.json`, `data/2020.json`, `data/2016.json`, `data/2012.json` — settled ledgers for the four historical tournaments, same schema as the live file. Currently mirror the data embedded inline in `index.html` so the same data-API shape exists per tournament year.
 - `data/players-2028.json` — index of tournament players, mapping the competition player ID to `{name, nat, club, clubnat}`. Seeded from the competition's squad endpoints joined with public club data.
 - `data/leagues.json` — club-country → league-name defaults, plus per-club overrides for second-tier and unusual cases (Championship, 2. Bundesliga, etc.).
 - `scripts/build_ledger.py` — hourly aggregator. Reads the match timeline feed (goals = event type 0, assists = 1, saves = 57), joins on the player index, buckets into leagues, writes the ledger payload. No secrets — public sources only.
