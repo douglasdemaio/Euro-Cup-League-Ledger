@@ -1,9 +1,9 @@
 {
-  "updated": "July 11, 2026 23:52 UTC — 99 of 104 matches played",
+  "updated": "July 12, 2026 02:30 UTC — 99 of 104 matches played, 1 live",
   "goals": [
     {
       "league": "Premier League (England)",
-      "total": 58,
+      "total": 60,
       "players": [
         {
           "name": "Erling Haaland",
@@ -60,6 +60,12 @@
           "club": "Crystal Palace"
         },
         {
+          "name": "Dan Ndoye",
+          "nat": "Switzerland",
+          "n": 2,
+          "club": "Nottingham Forest"
+        },
+        {
           "name": "Daniel Munoz",
           "nat": "Colombia",
           "n": 2,
@@ -108,6 +114,12 @@
           "club": "Liverpool"
         },
         {
+          "name": "Alexis Mac Allister",
+          "nat": "Argentina",
+          "n": 1,
+          "club": "Liverpool"
+        },
+        {
           "name": "Casemiro",
           "nat": "Brazil",
           "n": 1,
@@ -118,12 +130,6 @@
           "nat": "Argentina",
           "n": 1,
           "club": "Tottenham Hotspur"
-        },
-        {
-          "name": "Dan Ndoye",
-          "nat": "Switzerland",
-          "n": 1,
-          "club": "Nottingham Forest"
         },
         {
           "name": "Enzo Fernandez",
@@ -1397,7 +1403,7 @@
     },
     {
       "league": "La Liga (Spain)",
-      "total": 27,
+      "total": 28,
       "players": [
         {
           "name": "Brahim Diaz",
@@ -1512,6 +1518,12 @@
           "nat": "Senegal",
           "n": 1,
           "club": "Villarreal"
+        },
+        {
+          "name": "Ricardo Rodriguez",
+          "nat": "Switzerland",
+          "n": 1,
+          "club": "Real Betis"
         },
         {
           "name": "Ruben Vargas",
@@ -1996,6 +2008,36 @@
       ]
     },
     {
+      "league": "MLS (USA/Canada)",
+      "total": 5,
+      "players": [
+        {
+          "name": "Lionel Messi",
+          "nat": "Argentina",
+          "n": 2,
+          "club": "Inter Miami CF"
+        },
+        {
+          "name": "Matias Galarza",
+          "nat": "Paraguay",
+          "n": 1,
+          "club": "Atlanta United FC"
+        },
+        {
+          "name": "Rodrigo De Paul",
+          "nat": "Argentina",
+          "n": 1,
+          "club": "Inter Miami CF"
+        },
+        {
+          "name": "Sebastian Berhalter",
+          "nat": "USA",
+          "n": 1,
+          "club": "Vancouver Whitecaps FC"
+        }
+      ]
+    },
+    {
       "league": "Saudi Pro League",
       "total": 5,
       "players": [
@@ -2058,36 +2100,6 @@
           "nat": "Ivory Coast",
           "n": 1,
           "club": "Galatasaray"
-        }
-      ]
-    },
-    {
-      "league": "MLS (USA/Canada)",
-      "total": 4,
-      "players": [
-        {
-          "name": "Lionel Messi",
-          "nat": "Argentina",
-          "n": 1,
-          "club": "Inter Miami CF"
-        },
-        {
-          "name": "Matias Galarza",
-          "nat": "Paraguay",
-          "n": 1,
-          "club": "Atlanta United FC"
-        },
-        {
-          "name": "Rodrigo De Paul",
-          "nat": "Argentina",
-          "n": 1,
-          "club": "Inter Miami CF"
-        },
-        {
-          "name": "Sebastian Berhalter",
-          "nat": "USA",
-          "n": 1,
-          "club": "Vancouver Whitecaps FC"
         }
       ]
     },
@@ -2323,7 +2335,7 @@
   "saves": [
     {
       "league": "Premier League (England)",
-      "total": 76,
+      "total": 80,
       "players": [
         {
           "name": "Bart Verbruggen",
@@ -2364,7 +2376,7 @@
         {
           "name": "Emiliano Martinez",
           "nat": "Argentina",
-          "n": 4,
+          "n": 8,
           "club": "Aston Villa"
         }
       ]
