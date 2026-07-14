@@ -1,5 +1,5 @@
 {
-  "updated": "July 14, 2026 20:58 UTC — 100 of 104 matches played, 1 live",
+  "updated": "July 14, 2026 22:02 UTC — 101 of 104 matches played",
   "goals": [
     {
       "league": "Premier League (England)",
@@ -2401,7 +2401,7 @@
     },
     {
       "league": "La Liga (Spain)",
-      "total": 47,
+      "total": 48,
       "players": [
         {
           "name": "Orjan Nyland",
@@ -2418,7 +2418,7 @@
         {
           "name": "Unai Simon",
           "nat": "Spain",
-          "n": 9,
+          "n": 10,
           "club": "Athletic Bilbao"
         },
         {
@@ -2851,7 +2851,7 @@
     }
   ],
   "notes": {
-    "goals": "Live from FIFA. Updated automatically; data through the most recent match. (100/104 matches)",
+    "goals": "Live from FIFA. Updated automatically; data through the most recent match. (101/104 matches)",
     "assists": "Live from FIFA. Assists are credited only when FIFA's timeline records an Assist event (Type 1) for the pass before the goal — own goals and direct-free-kick goals don't generate one.",
     "saves": "Live from ESPN match summaries (FIFA's v3 timeline doesn't carry keeper events). Counts each team's top saver per match; goals conceded are not deducted."
   }
