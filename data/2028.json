@@ -1,5 +1,5 @@
 {
-  "updated": "July 18, 2026 21:48 UTC — 102 of 104 matches played, 1 live",
+  "updated": "July 18, 2026 22:45 UTC — 102 of 104 matches played, 1 live",
   "goals": [
     {
       "league": "Premier League (England)",
@@ -237,12 +237,12 @@
     },
     {
       "league": "La Liga (Spain)",
-      "total": 39,
+      "total": 41,
       "players": [
         {
           "name": "Kylian Mbappe",
           "nat": "France",
-          "n": 7,
+          "n": 9,
           "club": "Real Madrid"
         },
         {
@@ -453,7 +453,7 @@
     },
     {
       "league": "Ligue 1 (France)",
-      "total": 23,
+      "total": 24,
       "players": [
         {
           "name": "Ousmane Dembele",
@@ -462,16 +462,16 @@
           "club": "Paris Saint-Germain"
         },
         {
+          "name": "Bradley Barcola",
+          "nat": "France",
+          "n": 3,
+          "club": "Paris Saint-Germain"
+        },
+        {
           "name": "Folarin Balogun",
           "nat": "USA",
           "n": 3,
           "club": "Monaco"
-        },
-        {
-          "name": "Bradley Barcola",
-          "nat": "France",
-          "n": 2,
-          "club": "Paris Saint-Germain"
         },
         {
           "name": "Achraf Hakimi",
@@ -1451,7 +1451,7 @@
     },
     {
       "league": "La Liga (Spain)",
-      "total": 30,
+      "total": 31,
       "players": [
         {
           "name": "Brahim Diaz",
@@ -1462,7 +1462,7 @@
         {
           "name": "Kylian Mbappe",
           "nat": "France",
-          "n": 3,
+          "n": 4,
           "club": "Real Madrid"
         },
         {
@@ -1601,12 +1601,12 @@
     },
     {
       "league": "Bundesliga (Germany)",
-      "total": 26,
+      "total": 28,
       "players": [
         {
           "name": "Michael Olise",
           "nat": "France",
-          "n": 5,
+          "n": 7,
           "club": "Bayern Munich"
         },
         {
@@ -2395,7 +2395,7 @@
   "saves": [
     {
       "league": "Premier League (England)",
-      "total": 86,
+      "total": 88,
       "players": [
         {
           "name": "Bart Verbruggen",
@@ -2442,7 +2442,7 @@
         {
           "name": "Dean Henderson",
           "nat": "England",
-          "n": 2,
+          "n": 4,
           "club": "Crystal Palace"
         }
       ]
@@ -2623,19 +2623,19 @@
     },
     {
       "league": "Serie A (Italy)",
-      "total": 23,
+      "total": 25,
       "players": [
+        {
+          "name": "Mike Maignan",
+          "nat": "France",
+          "n": 13,
+          "club": "Milan"
+        },
         {
           "name": "Zion Suzuki",
           "nat": "Japan",
           "n": 12,
           "club": "Parma"
-        },
-        {
-          "name": "Mike Maignan",
-          "nat": "France",
-          "n": 11,
-          "club": "Milan"
         }
       ]
     },
