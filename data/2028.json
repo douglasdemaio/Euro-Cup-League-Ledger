@@ -1,5 +1,5 @@
 {
-  "updated": "July 19, 2026 20:43 UTC — 103 of 104 matches played, 1 live",
+  "updated": "July 19, 2026 21:49 UTC — 103 of 104 matches played, 1 live",
   "goals": [
     {
       "league": "Premier League (England)",
@@ -237,7 +237,7 @@
     },
     {
       "league": "La Liga (Spain)",
-      "total": 42,
+      "total": 43,
       "players": [
         {
           "name": "Kylian Mbappe",
@@ -322,6 +322,12 @@
           "nat": "DR Congo",
           "n": 1,
           "club": "Castellón"
+        },
+        {
+          "name": "Ferran Torres",
+          "nat": "Spain",
+          "n": 1,
+          "club": "Barcelona"
         },
         {
           "name": "Giovani Lo Celso",
@@ -1451,7 +1457,7 @@
     },
     {
       "league": "La Liga (Spain)",
-      "total": 31,
+      "total": 32,
       "players": [
         {
           "name": "Brahim Diaz",
@@ -1560,6 +1566,12 @@
           "nat": "Argentina",
           "n": 1,
           "club": "Atlético Madrid"
+        },
+        {
+          "name": "Nico Williams",
+          "nat": "Spain",
+          "n": 1,
+          "club": "Athletic Bilbao"
         },
         {
           "name": "Nicolas Pepe",
@@ -2401,8 +2413,14 @@
   "saves": [
     {
       "league": "Premier League (England)",
-      "total": 93,
+      "total": 100,
       "players": [
+        {
+          "name": "Emiliano Martinez",
+          "nat": "Argentina",
+          "n": 20,
+          "club": "Aston Villa"
+        },
         {
           "name": "Bart Verbruggen",
           "nat": "Netherlands",
@@ -2420,12 +2438,6 @@
           "nat": "Brazil",
           "n": 14,
           "club": "Liverpool"
-        },
-        {
-          "name": "Emiliano Martinez",
-          "nat": "Argentina",
-          "n": 13,
-          "club": "Aston Villa"
         },
         {
           "name": "Jacob Widell Zetterstrom",
