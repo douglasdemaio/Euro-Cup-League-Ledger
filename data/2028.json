@@ -1,9 +1,9 @@
 {
-  "updated": "July 19, 2026 22:49 UTC — 104 of 104 matches played",
+  "updated": "July 29, 2026 11:25 UTC — 104 of 104 matches played",
   "goals": [
     {
       "league": "Premier League (England)",
-      "total": 67,
+      "total": 66,
       "players": [
         {
           "name": "Erling Haaland",
@@ -120,12 +120,6 @@
           "club": "Brighton & Hove Albion"
         },
         {
-          "name": "Yoane Wissa",
-          "nat": "DR Congo",
-          "n": 2,
-          "club": "Newcastle United"
-        },
-        {
           "name": "Alexander Isak",
           "nat": "Sweden",
           "n": 1,
@@ -226,6 +220,12 @@
           "nat": "Netherlands",
           "n": 1,
           "club": "Liverpool"
+        },
+        {
+          "name": "Yoane Wissa",
+          "nat": "DR Congo",
+          "n": 1,
+          "club": "Newcastle United"
         },
         {
           "name": "Youri Tielemans",
@@ -758,48 +758,6 @@
       ]
     },
     {
-      "league": "Egyptian Premier League",
-      "total": 8,
-      "players": [
-        {
-          "name": "Emam Ashour",
-          "nat": "Egypt",
-          "n": 2,
-          "club": "Al Ahly"
-        },
-        {
-          "name": "Mostafa Zico",
-          "nat": "Egypt",
-          "n": 2,
-          "club": "Pyramids"
-        },
-        {
-          "name": "Fiston Mayele",
-          "nat": "DR Congo",
-          "n": 1,
-          "club": "Pyramids"
-        },
-        {
-          "name": "Mahmoud Saber",
-          "nat": "Egypt",
-          "n": 1,
-          "club": "ZED"
-        },
-        {
-          "name": "Trezeguet",
-          "nat": "Egypt",
-          "n": 1,
-          "club": "Al Ahly"
-        },
-        {
-          "name": "Yasser Ibrahim",
-          "nat": "Egypt",
-          "n": 1,
-          "club": "Al Ahly"
-        }
-      ]
-    },
-    {
       "league": "Eredivisie (Netherlands)",
       "total": 8,
       "players": [
@@ -836,6 +794,42 @@
       ]
     },
     {
+      "league": "Egyptian Premier League",
+      "total": 7,
+      "players": [
+        {
+          "name": "Emam Ashour",
+          "nat": "Egypt",
+          "n": 2,
+          "club": "Al Ahly"
+        },
+        {
+          "name": "Mostafa Zico",
+          "nat": "Egypt",
+          "n": 2,
+          "club": "Pyramids"
+        },
+        {
+          "name": "Mahmoud Saber",
+          "nat": "Egypt",
+          "n": 1,
+          "club": "ZED"
+        },
+        {
+          "name": "Trezeguet",
+          "nat": "Egypt",
+          "n": 1,
+          "club": "Al Ahly"
+        },
+        {
+          "name": "Yasser Ibrahim",
+          "nat": "Egypt",
+          "n": 1,
+          "club": "Al Ahly"
+        }
+      ]
+    },
+    {
       "league": "Scottish Premiership",
       "total": 6,
       "players": [
@@ -867,7 +861,7 @@
     },
     {
       "league": "Süper Lig (Turkey)",
-      "total": 6,
+      "total": 5,
       "players": [
         {
           "name": "Abbosbek Fayzullaev",
@@ -880,12 +874,6 @@
           "nat": "Turkey",
           "n": 1,
           "club": "Galatasaray"
-        },
-        {
-          "name": "Eldor Shomurodov",
-          "nat": "Uzbekistan",
-          "n": 1,
-          "club": "İstanbul Başakşehir"
         },
         {
           "name": "Kaan Ayhan",
@@ -2141,19 +2129,13 @@
     },
     {
       "league": "Süper Lig (Turkey)",
-      "total": 5,
+      "total": 4,
       "players": [
         {
           "name": "Baris Alper Yilmaz",
           "nat": "Turkey",
           "n": 1,
           "club": "Galatasaray"
-        },
-        {
-          "name": "Meschack Elia",
-          "nat": "DR Congo",
-          "n": 1,
-          "club": "Alanyaspor"
         },
         {
           "name": "Orkun Kokcu",
@@ -2394,18 +2376,6 @@
           "nat": "Morocco",
           "n": 1,
           "club": "Al Ain"
-        }
-      ]
-    },
-    {
-      "league": "Uzbekistan Super League",
-      "total": 1,
-      "players": [
-        {
-          "name": "Akmal Mozgovoy",
-          "nat": "Uzbekistan",
-          "n": 1,
-          "club": "Pakhtakor"
         }
       ]
     }
