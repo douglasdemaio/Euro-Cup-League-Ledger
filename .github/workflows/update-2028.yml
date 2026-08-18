@@ -1,8 +1,8 @@
 name: update-euro-ledger
 
 on:
-  schedule:
-    - cron: "0 * * * *"     # every hour, on the hour
+  # schedule:
+  #   - cron: "0 * * * *"     # disabled — Euro 2028 has not started yet
   workflow_dispatch: {}     # manual trigger from the Actions tab
 
 permissions:
